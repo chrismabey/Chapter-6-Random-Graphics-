@@ -1,0 +1,30 @@
+
+// Lab05vst.java
+// Student version of the Lab05 assignment.
+
+import java.awt.*;
+import java.applet.*;
+
+public class ControlStructuresGraphics extends Applet {
+	public void paint(Graphics g)
+	{
+		int width = 980;
+		int height = 630;
+		g.drawRect(10,10,width,height);
+		
+		// Draw bottom-left corner
+		int xStart = 10;
+		int yStart = 640;
+		for(int k = 0; k <= 68; k++){
+			int xEnd = xStart + k*10;
+			int yEnd = yStart - k*10;
+			g.drawLine(xStart, yStart, xEnd, yEnd);
+			
+		}
+		// Draw bottom-right corner
+				
+		// Draw top-right corner
+			
+		// Draw top-left corner
+	}
+}

@@ -1,0 +1,23 @@
+
+// Lab05vst.java
+// Student version of the Lab05 assignment.
+
+import java.awt.*;
+import java.applet.*;
+
+public class ControlStructuresGraphics extends Applet {
+	public void paint(Graphics g)
+	{
+		int width = 980;
+		int height = 630;
+		g.drawRect(10,10,width,height);
+		
+		// Draw bottom-left corner
+		
+		// Draw bottom-right corner
+				
+		// Draw top-right corner
+			
+		// Draw top-left corner
+	}
+}
